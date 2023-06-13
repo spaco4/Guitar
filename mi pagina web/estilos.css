@@ -1,0 +1,49 @@
+body {
+    background-color: #170d43;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .titulo {
+    margin-top: 30px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .btn-lanzar {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #19b6a9;
+    color: #1e392a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-lanzar:hover {
+    background-color: #31f051;
+  }
+  
+  .subtitulo {
+    margin-top: 30px;
+  }
+  
+  .numeros-generados {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .mensaje-ganador {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
